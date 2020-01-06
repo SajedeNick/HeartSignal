@@ -1,14 +1,10 @@
 # HeartSignal
 
-```diff
+ A simple Heart Signal Maker
 
-+ A simple Heart Signal Maker
+ Author : Sajede Nicknadaf
 
-+ Author : Sajede Nicknadaf
-
-+ Language : C
-
-```
+ Language : C
 
 ## **Requirement**
 
