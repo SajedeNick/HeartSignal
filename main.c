@@ -38,24 +38,24 @@ int main(void)
 			timer+=70;
 		}
 		else if(timer>=120&&timer<125){
-			_delay_ms(1.000/3);
-			timer+=(1.000/3);
-			i--;
+			_delay_ms(1);
+			timer+=(1);
+			i-=3;
 		}
 		else if(timer>=125&&timer<155){
-			_delay_ms(1.000/6);
-			timer+=(1.000/6);
-			i++;
+			_delay_ms(1);
+			timer+=(1);
+			i+=6;
 		}
 		else if(timer>=155&&timer<187){
-			_delay_ms(1.000/6);
-			timer+=(1.000/6);
-			i--;
+			_delay_ms(1);
+			timer+=(1);
+			i-=6;
 		}
 		else if(timer>=187&&timer<196){
-			_delay_ms(1.000/3);
-			timer+=(1.000/3);
-			i++;
+			_delay_ms(1);
+			timer+=(1);
+			i+=3;
 		}
 		else if(timer>=196&&timer<285){
 			_delay_ms(89);
